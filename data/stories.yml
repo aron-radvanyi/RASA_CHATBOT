@@ -1,0 +1,125 @@
+version: "3.1"
+
+stories:
+
+
+- story: question_path_1
+  steps:
+    - intent: ask_question_1
+    - action: utter_ask_question_1
+
+- story: question_path_2
+  steps:
+    - intent: ask_question_2
+    - action: utter_ask_question_2
+
+- story: question_path_3
+  steps:
+    - intent: ask_question_3
+    - action: utter_ask_question_3
+
+- story: question_path_4
+  steps:
+    - intent: ask_question_4
+    - action: utter_ask_question_4
+
+- story: question_path_5
+  steps:
+    - intent: ask_question_5
+    - action: utter_ask_question_5
+
+- story: question_path_6
+  steps:
+    - intent: ask_question_6
+    - action: utter_ask_question_6
+
+- story: question_path_7
+  steps:
+    - intent: ask_question_7
+    - action: utter_ask_question_7
+
+- story: question_path_8
+  steps:
+    - intent: ask_question_8
+    - action: utter_ask_question_8
+
+- story: question_path_9
+  steps:
+    - intent: ask_question_9
+    - action: utter_ask_question_9
+
+- story: question_path_10
+  steps:
+    - intent: ask_question_10
+    - action: utter_ask_question_10
+
+- story: question_path_11
+  steps:
+    - intent: ask_question_11
+    - action: utter_ask_question_11
+
+- story: question_path_12
+  steps:
+    - intent: ask_question_12
+    - action: utter_ask_question_12
+
+- story: question_path_13
+  steps:
+    - intent: ask_question_13
+    - action: utter_ask_question_13
+
+- story: question_path_14
+  steps:
+    - intent: ask_question_14
+    - action: utter_ask_question_14
+
+- story: question_path_15
+  steps:
+    - intent: ask_question_15
+    - action: utter_ask_question_15
+
+- story: question_path_16
+  steps:
+    - intent: ask_question_16
+    - action: utter_ask_question_16
+
+- story: question_path_17
+  steps:
+    - intent: ask_question_17
+    - action: utter_ask_question_17
+
+- story: question_path_18
+  steps:
+    - intent: ask_question_18
+    - action: utter_ask_question_18
+
+- story: question_path_19
+  steps:
+    - intent: ask_question_19
+    - action: utter_ask_question_19
+
+
+- story: question_path_20
+  steps:
+    - intent: ask_question_20
+    - action: utter_ask_question_20
+
+- story: greet
+  steps:
+    - intent: greet
+    - action: utter_greet
+
+- story: goodbye
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+- story: happy
+  steps:
+    - intent: happy
+    - action: utter_happy
+
+- story: bot_challenge
+  steps:
+    - intent: bot_challenge
+    - action: utter_iamabot

@@ -1,0 +1,351 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: ask_question_1
+  examples: |
+    - What are unratified marks and when will I know the marks are final?
+    - Is it possible to find out when my grades are final if they are not ratified?
+    - Is it possible to know when my marks are final if they are not ratified?
+    - When my unratified marks become final, how will I know?
+    - If my marks have not been ratified, when will they be final?
+    - I am awaiting ratification of my marks. How do I know if they are final?
+    - If my marks are unratified, when are they final?
+    - What is an unratified mark and when I will receive my final marks? 
+    - When I will receive my final mark and what are unratified marks? 
+    - What’s an unratified mark and when I’ll receive my final mark? 
+
+- intent: ask_question_2
+  examples: |
+    - Where and when do I find exam results?
+    - What's the best way to find exam results?
+    - Where can I find exam results?
+    - What do I do if I want my exam results?
+    - Exam results: where do I find them?
+    - Can you tell me where the exam results are?
+    - I can't find my exam results.
+    - What is the procedure for finding exam results?
+    - When and where do I find exam results?
+    - When and where do I find an exam result?
+
+- intent: ask_question_3
+  examples: |
+    - I failed my assessment, and I am no longer on the programme, what should I do?
+    - What should I do if I failed my assessment?
+    - My assessment failed, so I'm no longer on the programme. What do I do?
+    - I failed my assessment, now I'm not on the programme, what do I do?
+    - Having failed my assessment, I'm no longer on the program, what should I do?
+    - Why did I fail my assessment? What should I do?
+    - It's been a while since my last assessment, what should I do?
+    - The program is no longer accepting me because I failed the assessment, what do I do now?
+    - I am no longer on my programme because I failed my assessment, what should I do? 
+    - I am no longer on my programme because I failed my assessment, what can I do?
+
+- intent: ask_question_4
+  examples: |
+    - How I make a complaint?
+    - What do I do if I have a complaint?
+    - How do I complain?
+    - How do I make a complaint?
+    - I want to complain, how do I do that?
+    - What should I do if I have a complaint?
+    - Where do I file a complaint?
+    - How I make complaints?
+    - How to make a complaint? 
+    - Complaints: how do I do it?
+
+- intent: ask_question_5
+  examples: |
+    - I feel that I am not being supported on placement. What should I do?
+    - I sense a lack of support during my placement. What steps can I take to address this?
+    - There's a feeling that I'm not receiving enough support while on placement. Any suggestions on how to handle this situation?
+    - During my placement, I have a perception that I am not being adequately supported. What actions should I consider?
+    - The impression I have is that I'm lacking support on my placement. What would be the appropriate course of action?
+    - I'm experiencing a sense of being unsupported during my placement. How can I best handle this concern?
+    - I have a concern that I'm not receiving the support I need on placement. What would be the best approach to address this?
+    - I have a feeling that I am not supported on my internship. What can I do? 
+    - My feeling is that I have no support on my placement. What is possible to do? 
+
+- intent: ask_question_6
+  examples: |
+    - I was referred to Fitness to practice, what should I do?
+    - I've been directed to Fitness to Practice. How should I proceed in this situation?
+    - A referral has been made to Fitness to Practice. What steps do you recommend I take now?
+    - I received a referral to Fitness to Practice. What actions should I consider at this point?
+    - I find myself referred to Fitness to Practice. What would be the appropriate course of action?
+    - There has been a referral to Fitness to Practice on my behalf. How can I best handle this situation?
+    - I'm facing a situation where I've been referred to Fitness to Practice. What should be my next move?
+    - My situation is that I have been referred to Sit to fit What should I next do?
+    - The knowledge of my referral to Fitness to Practice has prompted me to seek counsel on what to do next.
+    - I have received a reference to Fitness to practice, how to proceed?  
+
+- intent: ask_question_7
+  examples: |
+    - How are student degrees calculated?
+    - What is the process for calculating student degrees?
+    - How do academic institutions determine student degrees?
+    - What factors are considered when calculating student degrees?    
+    - Can you explain the method used to calculate student degrees?
+    - What criteria are used to assess student performance for degree calculation?
+    - Is there a specific formula used for determining student degrees?
+    - Who is responsible for calculating student degrees at the university?
+    - What is the method used to calculate student degrees?
+    - What is the process used to calculate student degrees?    
+
+- intent: ask_question_8
+  examples: |
+    - The standards of care in my clinical area are unacceptable, how do they get support and guidance?
+    - In my clinical area, if the standards of care are deemed unacceptable, how can they obtain support and guidance?
+    - What steps can be taken to provide support and guidance if the standards of care in my clinical area are considered unacceptable?
+    - How is support and guidance offered when the standards of care are deemed unacceptable in my clinical area?
+    - Who can be approached to seek support and guidance in improving the standards of care in my clinical area?
+    - When facing unacceptable standards of care in my clinical area, what resources are available to offer support and guidance?
+    - Are there specific protocols in place to address and improve the standards of care in my clinical area if they are found to be unacceptable?
+    - What measures are in place to ensure that the appropriate support and guidance are given when the standards of care are considered unacceptable?
+    - If the standards of care in my clinical area fall below acceptable levels, what avenues exist to seek support and guidance?
+    - In cases of unacceptable standards of care, how can the staff in my clinical area access additional support and guidance?
+    
+- intent: ask_question_9
+  examples: |
+    - I think I might be dyslexic / have ADHD / etc., what should I do?
+    - If I suspect that I might have dyslexia / ADHD / etc., what steps should I take next?
+    - What course of action is recommended if I believe I may be experiencing dyslexia / ADHD / etc.?
+    - How should I proceed if I think I could be dyslexic / have ADHD / etc.?
+    - Are there specific resources available for individuals who suspect they may have dyslexia / ADHD / etc.?
+    - What are the recommended measures for someone who suspects they have dyslexia / ADHD / etc.?
+    - In the event that I think I might have dyslexia / ADHD / etc., who should I reach out to for assistance?
+    - Are there any assessments or evaluations I should consider if I suspect I have dyslexia / ADHD / etc.?
+    - What support services are available to individuals who suspect they may have dyslexia / ADHD / etc.?
+    - How can I gain further insight into my potential dyslexia / ADHD / etc. condition and what steps to take?
+
+- intent: ask_question_10
+  examples: |
+    - What do I do if I need an extension?  
+    - If I require an extension, what steps should I take to obtain one?
+    - What is the process for requesting an extension if I need more time?
+    - How can I go about seeking an extension if my current deadline is not feasible?
+    - Are there specific guidelines or procedures to follow when requesting an extension?
+    - In the event that I need additional time, who should I approach to discuss an extension?
+    - What information or documentation might be required when asking for an extension?
+    - Are there any limitations or restrictions on obtaining an extension for my task?
+    - What are the usual circumstances under which an extension can be granted?
+    - If I need more time to complete my work, what options do I have for requesting an extension?
+
+- intent: ask_question_11
+  examples: |
+    - I had extra help at school / college and would like the same arrangements here, e.g. extra time in exams, what should I do?
+    - If I received additional support in school / college and wish to have similar arrangements here, like extra time in exams, what steps should I take?
+    - What is the process for requesting the same accommodations at my current institution that I had in school / college, such as extra time during exams?
+    - How can I go about seeking the continuation of the support I received before, such as extra assistance or extended exam time?
+    - Are there specific guidelines or procedures to follow when requesting similar arrangements to those I had in school / college?
+    - In order to have the same accommodations here as I had previously, whom should I approach to discuss my needs?
+    - What information or documentation might be required when requesting similar arrangements to those I had in school / college?
+    - Are there any limitations or criteria for obtaining the same accommodations that I previously received?
+    - What are the usual circumstances under which the institution grants similar arrangements, such as extra time in exams?
+    - If I need additional support at my current educational level, what options do I have for requesting similar accommodations?
+
+- intent: ask_question_12
+  examples: |
+    - How do I get my assessment results?
+    - What is the process for obtaining my assessment results?
+    - How can I access my assessment results?
+    - Are there specific steps I need to follow to get my assessment results?
+    - Whom should I contact to inquire about my assessment results?
+    - What information or details might I need to provide to receive my assessment results?
+    - Are there any specific platforms or systems where my assessment results will be available?
+    - When can I expect to receive my assessment results?
+    - Is there a specific timeline for releasing assessment results?
+    - Are there any potential delays or factors that could affect the availability of my assessment results?
+
+- intent: ask_question_13
+  examples: |
+    - I am not happy with my results, can I appeal?
+    - Is there an appeal process available if I am dissatisfied with my results?
+    - What steps should I take if I wish to appeal my results?
+    - Are there specific guidelines or criteria for initiating an appeal regarding my results?
+    - Whom should I contact to begin the appeals process for my results?
+    - Is there a deadline by which I need to submit my appeal for consideration?
+    - What information or evidence might I need to provide to support my appeal?
+    - Are there any potential outcomes or consequences associated with lodging an appeal for my results?
+    - How long does the appeals process typically take, and when can I expect a decision?
+    - If my appeal is unsuccessful, are there any further options available to challenge the results?
+
+- intent: ask_question_14
+  examples: |
+    - I am struggling to meet deadlines; what options are available to me?
+    - What alternatives can I explore if I find it challenging to meet my deadlines?
+    - Are there any available solutions or resources to help with my struggles in meeting deadlines?
+    - How can I seek assistance if I am facing difficulties in meeting my required timeframes? 
+    - What support services are offered for individuals who are finding it hard to meet their deadlines?
+    - Are there specific strategies or time management techniques that can aid me in meeting my deadlines more effectively?
+    - Whom should I approach to discuss my challenges in meeting deadlines and explore potential options?
+    - What are the consequences if I am unable to meet certain deadlines, and can they be mitigated in any way?
+    - Are there any adjustments or accommodations that can be made to help me cope with the deadline pressures?
+    - Struggling with deadlines, what is possible to do? What steps can I take to improve my time management skills and address my struggles with deadlines?
+
+- intent: ask_question_15
+  examples: |
+    - When are the resits?
+    - What is the schedule for the resits?
+    - Are there specific dates set for the resit examinations?
+    - When can I expect the resits to take place?
+    - Are there any particular time frames allotted for the resit assessments?
+    - Whom should I contact to find out the resit dates?
+    - Is there a published resit timetable available for reference?
+    - What is the timeline for announcing the resit examination schedule?
+    - Are there any specific guidelines or procedures to follow for registering for the resits?
+    - If I miss the initial exams, how can I find out about resit opportunities?
+
+- intent: ask_question_16
+  examples: |
+    - What do I do if I am struggling with course work?
+    - Whom should I approach for help if I find myself struggling with my coursework?
+    - What resources are available to support students who are facing difficulties with their coursework?
+    - How can I seek assistance if I am having trouble with my course assignments and projects?
+    - Are there specific study groups or tutoring services to aid students struggling with coursework?
+    - What steps can I take to address my challenges with coursework effectively?
+    - Whom should I notify if my coursework struggles are impacting my academic performance?
+    - Is there a designated academic support center to guide students through coursework challenges?
+    - Are there any time-sensitive measures I should consider if I am struggling with coursework?
+    - What options do I have for discussing my coursework concerns with faculty or instructors?
+
+- intent: ask_question_17
+  examples: |
+    - I do not think I have been marked fairly in my exam / essay, what can I do?
+    - What steps can I take if I believe my exam or essay has not been graded fairly?
+    - Whom should I approach to discuss my concerns about the fairness of my exam or essay marking?
+    - Is there a specific process in place for addressing issues related to grading fairness?
+    - Are there any guidelines or criteria for determining whether a reevaluation of my exam or essay is warranted?
+    - How can I initiate a review of my exam or essay if I feel it was not marked fairly?
+    - What are the usual time frames for seeking a reevaluation of exam or essay marking?
+    - Is there any documentation or evidence I need to provide to support my claim of unfair grading?
+    - Are there any potential implications or consequences associated with requesting a reevaluation?
+    - If I am dissatisfied with the outcome of the reevaluation, what further steps can I take?
+
+- intent: ask_question_18
+  examples: |
+    - I have been referred to academic conduct, what do I do?
+    - If I have been referred to academic conduct, what steps should I take next?
+    - Whom should I contact or approach to address the academic conduct referral?
+    - Is there a specific process or procedure to follow after being referred to academic conduct?
+    - What resources are available to help me navigate the academic conduct referral?
+    - Are there any specific guidelines or expectations to be aware of during the academic conduct process?
+    - How can I gather information about the nature of the academic conduct referral?
+    - Are there any potential consequences associated with the academic conduct referral?
+    - Is there a deadline for responding or taking action following the academic conduct referral?
+    - What options do I have for seeking support or advice during this situation?
+
+- intent: ask_question_19
+  examples: |
+    - Do I have to come to university during inter-trimester weeks and weeks 1 Continuing?
+    - Is it compulsory for me to attend the university during inter-trimester weeks and weeks 1 Continuing?
+    - Are there any attendance requirements for students during inter-trimester weeks and weeks 1 Continuing?
+    - What is the university's policy regarding student attendance during inter-trimester breaks and the initial weeks of the new trimester?
+    - Can I opt to not come to the university during inter-trimester weeks and weeks 1 Continuing without any consequences?
+    - Are there any specific activities or events scheduled during inter-trimester weeks and weeks 1 Continuing that I should be aware of?
+    - If I choose not to attend the university during inter-trimester weeks and weeks 1 Continuing, will it impact my academic standing or grades?
+    - Are there any exceptions or special circumstances that allow students to be excused from attending during inter-trimester weeks and weeks 1 Continuing?
+    - What are the potential benefits or reasons for attending the university during inter-trimester weeks and weeks 1 Continuing?
+    - If I have academic or personal commitments during this period, are there alternatives or accommodations available to manage my absence from the university?
+
+- intent: ask_question_20
+  examples: |
+    - I am absent due to illness, what should I do?
+    - What steps should I take if I am unable to attend due to illness?
+    - Whom should I inform about my absence from the institution due to illness?
+    - Is there a specific procedure or protocol to follow when reporting illness-related absences?
+    - Are there any necessary documents or proof required to validate my illness-related absence?
+    - How can I stay updated with the course materials and assignments while I am absent due to illness?
+    - Are there any resources or support services available to students who are absent due to illness?
+    - If my absence impacts my academic performance, what options do I have for seeking assistance or making up for missed work?
+    - Are there any attendance policies or considerations for students who are absent due to illness?
+    - Can I request extensions or accommodations for coursework if my illness hinders my ability to meet deadlines?
+    

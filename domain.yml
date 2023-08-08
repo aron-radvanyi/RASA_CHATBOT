@@ -1,0 +1,119 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - happy
+  - bot_challenge
+  - ask_question_1
+  - ask_question_2
+  - ask_question_3
+  - ask_question_4
+  - ask_question_5
+  - ask_question_6
+  - ask_question_7
+  - ask_question_8
+  - ask_question_9
+  - ask_question_10
+  - ask_question_11
+  - ask_question_12
+  - ask_question_13
+  - ask_question_14
+  - ask_question_15
+  - ask_question_16
+  - ask_question_17
+  - ask_question_18
+  - ask_question_19
+  - ask_question_20
+
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_ask_question_1:
+  - text: "This is the mark that is agreed by the markers. It is ratified or finalised at the Programme Assessment Board."
+  - text: "That’s the mark that is agreed by the markers. It is ratified or finalised at the Programme Assessment Board."
+  - text: "Unratified marks are agreed by the markers. It is ratified or finalised at the Programme Assessment Board."
+
+  utter_ask_question_2:
+  - text: "Students get their exam results via the Edinburgh Napier app or via My Account on My Napier. The date of exam results is released on the exam pages on My Napier."
+
+  utter_ask_question_3:
+  - text: "Students have two attempts available for each module. They should find out the date of the resit and make an appointment to meet with the module leader or member of the team to discuss feedback."
+
+  utter_ask_question_4:
+  - text: "Stage one complaints are dealt with by the Personal Development Tutor. "
+
+  utter_ask_question_5:
+    - text: "Please, tell me more about the lack of support? Have you discussed it with the placement supervisor/mentor? Are you aware that there is a member of academic staff attached to each placement and they can support them? InPlace can be used to find name of link lecturer (SHSC). The module leader will be able to find the staff member supporting non-NHS placements."
+    
+  utter_ask_question_6:
+    - text: "You will receive a letter inviting you to a meeting to discuss this (SHSC). The PDT should offer to accompany you to the meeting if they wish. You can also obtain advice and support from ENSA."
+
+  utter_ask_question_7:
+    - text: "This information is available on the Regulations intranet page."
+
+  utter_ask_question_8:
+    - text: "You are right to bring this to our attention. Are you able to write a statement so that we can act on this? Are you aware of the support that is in place for you in this difficult situation? "
+
+  utter_ask_question_9:
+    - text: "You should Contact the Disability & Inclusion team in the first instance to ask for an appointment."
+
+  utter_ask_question_10:
+    - text: "You should contact your module leader."
+
+  utter_ask_question_11:
+    - text: "You should Contact the Disability & Inclusion team in the first instance to ask for an appointment."
+
+  utter_ask_question_12:
+    - text: "You should contact your module team, or they can consult assessment information on Moodle."
+
+  utter_ask_question_13:
+    - text: "Information about appeals can be found on Appeals My Napier page."
+
+  utter_ask_question_14:
+    - text: "Refer to Fit to Sit and Extenuating Circumstances guidance."
+
+  utter_ask_question_15:
+    - text: "You should find this information on the module Moodle pages in the Assessment section. Also, contact your Module Leader or check the Edinburgh Napier App."
+
+  utter_ask_question_16:
+    - text: "Discuss this with the module team. It may be appropriate to refer to academic support, your librarian or mental health team."
+
+  utter_ask_question_17:
+    - text: "You should contact the module leader to explain your concern. You can appeal but only on the grounds outlined in the Appeals Webpages. You can formally complain by following the Complaints Procedure."
+ 
+  utter_ask_question_18:
+    - text: "It is important for students to respond to Academic Conduct emails within the term specified, and to review the Academic Regulations for Student Conduct. If you are invited to attend a meeting, we recommend that you do so. You are permitted to bring a fellow student, someone from ENSA or member of staff.  We recommend that you ask their Personal Development Tutor.  You have the right to appeal."
+
+  utter_ask_question_19:
+    - text: "You are expected that to attend University as you committed to a full-time course of study."
+
+  utter_ask_question_20:
+    - text: "Should contact the module leader/ programme leader by email to let them know. Work experience/ placement: Should contact the placement to let them know that you are sick and module leader/ placement lead/supervisor."
+
+  
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
